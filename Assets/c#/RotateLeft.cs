@@ -4,8 +4,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class RotateLeft : MonoBehaviour
 {
-    public Transform player;          // 要旋转的Player对象
-    public float rotateAngle = 30f;  // 每次旋转的角度
+    public Transform player;          
+    public float rotateAngle = 30f;  
 
     private Button button;
 
